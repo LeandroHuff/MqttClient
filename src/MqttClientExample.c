@@ -4,7 +4,7 @@
  @author		Leandro Daniel Huff
  @version		1.0.0
  @copyright		Not copyrithed, it's free for use without any warrant.
- @description   MQTT client example in C, Ansi-style .
+ @description   MQTT client example in C, Ansi-style  .
  ============================================================================
  */
 
