@@ -1,9 +1,9 @@
 /**
  ============================================================================
- @brief			MqttClientExample.c
- @author		Leandro Daniel Huff
- @version		1.0.0
- @copyright		Not copyrighted, it's free for use without any warrant.
+ @brief         MqttClientExample.c
+ @author        Leandro Daniel Huff
+ @version       1.0.0
+ @copyright     Not copyrighted, it's free for use without any warranty.
  @description   MQTT client example in C, ANSI-style.
  ============================================================================
  */
