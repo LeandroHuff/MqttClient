@@ -33,6 +33,9 @@
 #define MQTT_PUBLISH_TOPIC     "MQTTCClientPubTopic"
 #define MQTT_SUBSCRIBE_TOPIC   "MQTTCClientSubTopic"
 
+/* Wait completion timeout */
+#define TIMEOUT 10UL
+
 /*
  *  Global variables
  */
@@ -64,7 +67,7 @@ void publish(MQTTClient client, char *topic, char *payload)
 	pubmsg.retained = 0;
 	MQTTClient_deliveryToken token = 0;
 	MQTTClient_publishMessage(client, topic, &pubmsg, &token);
-	MQTTClient_waitForCompletion(client, token, 10UL);
+	MQTTClient_waitForCompletion(client, token, TIMEOUT);
 }
 
 /* @brief				Callback function for received MQTT messages and send it back to MQTT broker.
