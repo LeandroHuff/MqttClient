@@ -24,15 +24,15 @@ This example is a contribution from Embarcados (https://www.embarcados.com.br) a
 
 More information about MQTT Protocol and IoT can be viewed at:
 
-https://www.embarcados.com.br/paho-mqtt-em-c-no-linux-embarcado/
-https://www.embarcados.com.br/o-mqtt-como-ipc-em-sistemas-linux/
-https://www.embarcados.com.br/protocolo-mqtt-a-solucao-para-m2m/
-https://www.embarcados.com.br/mqtt-na-raspberry-pi-com-node-red/
-https://www.embarcados.com.br/webinar-renesas-aplicacao-mqtt-tago-io/
-https://www.embarcados.com.br/mqtt-sn-mqtt-para-rede-de-sensores/
-https://www.embarcados.com.br/mqtt-sn-mqtt-para-rede-de-sensores/
-https://www.embarcados.com.br/mqtt-dash/
-https://www.embarcados.com.br/conectando-devicehub-com-nodemcu-e-mqtt/
-https://www.embarcados.com.br/conectando-devicehub-com-nodemcu-e-mqtt/
-https://www.embarcados.com.br/mqtt-e-intel-edison/
-https://www.embarcados.com.br/mqtt-protocolos-para-iot/
+https://www.embarcados.com.br/paho-mqtt-em-c-no-linux-embarcado/<br>
+https://www.embarcados.com.br/o-mqtt-como-ipc-em-sistemas-linux/<br>
+https://www.embarcados.com.br/protocolo-mqtt-a-solucao-para-m2m/<br>
+https://www.embarcados.com.br/mqtt-na-raspberry-pi-com-node-red/<br>
+https://www.embarcados.com.br/webinar-renesas-aplicacao-mqtt-tago-io/<br>
+https://www.embarcados.com.br/mqtt-sn-mqtt-para-rede-de-sensores/<br>
+https://www.embarcados.com.br/mqtt-sn-mqtt-para-rede-de-sensores/<br>
+https://www.embarcados.com.br/mqtt-dash/<br>
+https://www.embarcados.com.br/conectando-devicehub-com-nodemcu-e-mqtt/<br>
+https://www.embarcados.com.br/conectando-devicehub-com-nodemcu-e-mqtt/<br>
+https://www.embarcados.com.br/mqtt-e-intel-edison/<br>
+https://www.embarcados.com.br/mqtt-protocolos-para-iot/<br>
