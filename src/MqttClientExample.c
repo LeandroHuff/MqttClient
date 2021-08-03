@@ -14,6 +14,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 #include <MQTTClient.h>
 
 /*
@@ -112,7 +113,9 @@ int main(int argc, char *argv[])
 
 	MQTTClient_subscribe(client, MQTT_SUBSCRIBE_TOPIC, 0);
 
-	while (1)
+	int loop = 10;
+
+	while (loop > 0)
 	{
 		/*
 		 * This application run as an "interrupt" treater on a callback function MQTT message.
@@ -120,5 +123,16 @@ int main(int argc, char *argv[])
 		 * To exit from the application,
 		 * just press and retain keyboard keys CTRL and C and release them.
 		 */
+		sleep(1);
+		printf("\r%d) running...", loop);
+		fflush(stdout);
+		if (loop > 0)
+		{
+			loop--;
+		}
 	}
+
+	printf("done!\n");
+
+	return (EXIT_SUCCESS);
 }
